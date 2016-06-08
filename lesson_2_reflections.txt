@@ -1,5 +1,35 @@
 What happens when you initialize a repository? Why do you need to do it?
-Creates an empty git repository .git.
+By initializing you tag the repository as one in which you want to track 
+changes. Git does not create the first commit when initialized: that is up 
+to the user, but it does prepare it to allow you to do so.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-staging area is where the files staged added prior to the commit. Value is that you can choose what gets added and what doesnt prior to commiting it upstream.
+The staging area allows you to choose which files in a repository will be 
+included in a given commit. In this way you can commit only those files
+that you changed.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Grouping logical changes and commiting them together.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches when working code variations and functionality without breaking what you
+currently have. By branching you create a copy of the master (or wherever 
+the head is) and then "branch off" at that point. The main branch stays 
+intact and unchanged, but you are free to make any changes to the new 
+branch.
+
+How do the diagrams help you visualize the branch structure?
+see how the commits and branches relate to each other and can readily
+identify where each branch exists in relation to the others, and which
+commits are reachable from each branch. Makes debugging much more efficient
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Incorporates the changes from two branches into a new 
+commit. Create new features or work independently then later combine combine changes into a working 
+version. It is represented in the diagram as two branches coming together.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+-Saves time with non-conflicting merges.
+-Helps resolve conflicts in merges.
+-Easier to collaborate.
+-Difficult to decide changes to keep and remove.
