@@ -1,0 +1,30 @@
+Reflections
+1) version control platforms allows users to work on different branches and make edits without affecting the master document.
+
+2) makes it easier to compare difference between documents.
+
+3) allows teams to collaborate on different features of the app and merge together at the end.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+An easy access to entire history of a file makes you more efficient programmer becuase it allows you to navigate the history of the document, view changes quickly, pinpoint bugs, and most importantly roll back to a previous version. It also allows teams to collaborate together on the same project without interefering with one another's work. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+More control of what's saved and when its saved. This allows users to navigate historical changes much easier. Furthermore, manual commits allows the user to commit in a logial manner, i.e. commit when a feature is complete versus commit when x amount of time has passed.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git saves multiple files in one commit to take a current snapshot of the project/repository at the time of the commit. In programming, multiple files work together to create a proejct. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+See when changes were made, who made them, and what was made. Than easily compare changes across files in a detailed view.
+
+How might using version control make you more confident to make changes that could break something?
+The ability to roll back to an early working version.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Work on ios projects.
